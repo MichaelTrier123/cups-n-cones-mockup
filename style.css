@@ -6,3 +6,6 @@
 /* Keep the original two-photo collage seam outside the dessert crop. */
 .waffle-crop img,.sweet-crop img{width:212%;left:-112%}
 @media(max-width:700px){h1{font-size:65px}h1 br:nth-of-type(2){display:initial}}
+
+/* Vector icons stay monochrome on mobile, independent of emoji fonts. */
+.icon{display:inline-block;width:1em;height:1em;flex-shrink:0;vertical-align:-.15em;overflow:visible;pointer-events:none}.icon-arrow{width:1.15em;height:1.15em}.ribbon>.icon-star{min-width:22px}.little-star .icon{vertical-align:-.12em}.story-flower .icon{display:block}
